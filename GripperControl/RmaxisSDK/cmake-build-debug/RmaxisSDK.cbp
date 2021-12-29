@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RmaxisSDK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libmodbus\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RmaxisSDK">
+				<Option output="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/RmaxisSDK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zoukai/WorkingSpace/RmaxisSDK/lib"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 RmaxisSDK"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RmaxisSDK/fast">
+				<Option output="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/RmaxisSDK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zoukai/WorkingSpace/RmaxisSDK/lib"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 RmaxisSDK/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modbus">
+				<Option output="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/libmodbus.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 modbus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="modbus/fast">
+				<Option output="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/libmodbus.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 modbus/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zoukai/WorkingSpace/RmaxisSDK/cmake-build-debug/libmodbus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/Modbus.cpp">
+			<Option target="RmaxisSDK"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/Modbus.h">
+			<Option target="RmaxisSDK"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/RMAxis.cpp">
+			<Option target="RmaxisSDK"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/RMAxis.h">
+			<Option target="RmaxisSDK"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/libmodbus/libmodbus-data.c">
+			<Option target="modbus"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/libmodbus/libmodbus-rtu.c">
+			<Option target="modbus"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/libmodbus/libmodbus-tcp.c">
+			<Option target="modbus"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/libmodbus/libmodbus.c">
+			<Option target="modbus"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/libmodbus/libmodbus_merged.c">
+			<Option target="modbus"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/main.cpp">
+			<Option target="RmaxisSDK"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zoukai/WorkingSpace/RmaxisSDK/libmodbus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libmodbus\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
