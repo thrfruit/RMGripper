@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SMSBL.dir/main.cpp.o CMakeFiles/SMSBL.dir/SCS.cpp.o CMakeFiles/SMSBL.dir/SCSCL.cpp.o CMakeFiles/SMSBL.dir/SCSerial.cpp.o CMakeFiles/SMSBL.dir/SMSBL.cpp.o CMakeFiles/SMSBL.dir/SMSCL.cpp.o -o SMSBL   -L/root/CLionProjects/SMSBL/./lib  -Wl,-rpath,/root/CLionProjects/SMSBL/./lib -Wl,-Bstatic -lSCServo -Wl,-Bdynamic -lpthread 

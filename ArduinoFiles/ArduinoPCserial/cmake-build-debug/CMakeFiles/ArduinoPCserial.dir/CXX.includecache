@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/ArduinoPCserial/Serial.h
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
+sys/ioctl.h
+-
+getopt.h
+-
+iostream
+-
+
+/root/CLionProjects/ArduinoPCserial/echo.cpp
+Serial.h
+/root/CLionProjects/ArduinoPCserial/Serial.h
+iostream
+-
+

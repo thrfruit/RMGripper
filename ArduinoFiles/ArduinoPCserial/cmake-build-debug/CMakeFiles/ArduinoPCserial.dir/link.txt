@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ArduinoPCserial.dir/echo.cpp.o CMakeFiles/ArduinoPCserial.dir/Serial.cpp.o -o ArduinoPCserial 
