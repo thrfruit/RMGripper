@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zoukai/ros/AutoPlugin/hello_librealsense2.cpp
+librealsense2/rs.hpp
+-
+librealsense2/hpp/rs_internal.hpp
+-
+iostream
+-
+

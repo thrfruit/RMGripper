@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hello.dir/hello_librealsense2.cpp.o -o hello  -Wl,-rpath,/usr/local/lib /usr/local/lib/librealsense2.so.2.49.0 
